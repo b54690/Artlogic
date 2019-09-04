@@ -1,0 +1,17 @@
+.header__brand {
+    flex: 0 0 40%;
+    font-size: var(--font-medium);
+    color: var(--color-white);
+}
+
+.header__primary {
+    flex: 1;
+    font-size: var(--font-large);
+    color: var(--color-white);
+}
+
+.header__sub-header {
+    margin-top: 2rem;
+    font-size: var(--font-medium);
+    color: var(--color-white);
+}
