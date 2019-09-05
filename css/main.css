@@ -1,6 +1,8 @@
 @import "base/_base.css";
 @import "base/_typography.css";
 
+@import "utilities/_utilities.css";
+
 @import "page/_home.css";
 
 @import "abstracts/_variables.css";

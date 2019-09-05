@@ -1,17 +1,21 @@
 .header__brand {
-    flex: 0 0 40%;
+    flex: 0 0 32%;
     font-size: var(--font-medium);
-    color: var(--color-white);
+    margin-bottom: 5rem;
 }
 
 .header__primary {
+    max-width: 32rem;
     flex: 1;
     font-size: var(--font-large);
-    color: var(--color-white);
 }
 
 .header__sub-header {
+    max-width: 23rem;
     margin-top: 2rem;
     font-size: var(--font-medium);
-    color: var(--color-white);
+}
+
+.icon-float-right {
+    float: right;
 }
