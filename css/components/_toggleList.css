@@ -1,0 +1,12 @@
+.toggle-list {
+    padding-left: 2rem;
+}
+
+.toggle-list__item:first-child {
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-black);
+ }
+
+.toggle-list__paragraph {
+
+}

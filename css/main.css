@@ -3,6 +3,8 @@
 
 @import "utilities/_utilities.css";
 
+@import "components/_toggleList.css";
+
 @import "page/_home.css";
 
 @import "abstracts/_variables.css";

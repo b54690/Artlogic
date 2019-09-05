@@ -25,11 +25,10 @@ const array = {
 
 const questionList = document.querySelector('#question-list');
 
-questionList.innerHTML = '<ol>' + array.rows.map(function (row)
-{
-    return '<li id="expandable" class="u-margin-top-small u-margin-bottom-medium"><strong>'
-            + row.title + '<span class="icon-float-right"><button id="button-expand" aria-expanded="false">&#9660;' +
-            '</button></span>' + '</strong></li>' + '<p class="u-margin-bottom-medium" hidden>' + row.content + '</p>' + '<hr>';
+questionList.innerHTML = '<ol class="toggle-list">' + array.rows.map(function (row) {
+    return  '<li class="toggle-list__item u-margin-bottom-small u-margin-top-small" id="expandable"><strong>' + row.title +
+            '<span class="icon-float-right"><button id="button-expand" aria-expanded="false">&#9660;' +
+            '</button></span>' + '</strong></li>' + '<p class="toggle-list__paragraph u-margin-bottom-medium" hidden>' + row.content + '</p>' + '<hr>';
 }).join('') + '</ol>';
 
 
