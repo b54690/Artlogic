@@ -4,7 +4,7 @@
     <list default="true" id="08315582-2242-49bd-8a93-62bed0a220e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/_toggleList.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/_toggleList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/iterateArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/iterateArray.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <updated>1567606585018</updated>
       <workItem from="1567606586269" duration="17825000" />
       <workItem from="1567671092601" duration="4210000" />
-      <workItem from="1567703355084" duration="1742000" />
+      <workItem from="1567703355084" duration="2363000" />
     </task>
     <servers />
   </component>
