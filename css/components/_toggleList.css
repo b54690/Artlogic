@@ -1,12 +1,22 @@
 .toggle-list {
-    padding-left: 2rem;
+    list-style-type: none;
 }
 
-.toggle-list__item:first-child {
-    padding-top: 2rem;
-    border-top: 1px solid var(--color-black);
- }
+.toggle-list li {
+    max-width: 97%;
+    right: -10px;
+    display: list-item;
+    position: relative;
+    counter-increment: step-counter;
+}
+
+.toggle-list li::before {
+    position: absolute;
+    content: counter(step-counter)'.';
+    margin-right: 1rem;
+    left: -10px;
+}
 
 .toggle-list__paragraph {
-
+    max-width: 97%;
 }
