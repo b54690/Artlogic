@@ -23,13 +23,16 @@ const array = {
     ]
 };
 
-const questionList = document.querySelector('#question-list');
 
-questionList.innerHTML = '<ol class="toggle-list">' + array.rows.map(function (row) {
-    return  '<li class="u-margin-bottom-small u-margin-top-small" id="expandable"><strong>' + row.title +
-            '<span class="icon-float-right"><button id="button-expand" aria-expanded="false">&#9660;' + '</button></span>' +
-            '</strong></li>' + '<p class="u-margin-bottom-medium" hidden>' + row.content + '</p>' + '<hr>';
-}).join('') + '</ol>';
+var resolveList = function () {
 
+    const questionList = document.querySelector('#toggle-list');
 
+    questionList.innerHTML = '<ol class="toggle-list">' + array.rows.map(function (row) {
+        return  '<li class="u-margin-bottom-small u-margin-top-small" id="expandable">' + row.title +
+            '<span class="icon__float-right"><button aria-expanded="false"></button></span>' +
+            '</li>' + '<p class="u-margin-bottom-medium" hidden>' + row.content + '</p>' + '<hr class="line-break">';
+    }).join('') + '</ol>';
+};
 
+window.addEventListener('load', resolveList);

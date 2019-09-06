@@ -1,12 +1,17 @@
 :root {
     /** FONT SIZES **/
 
-    --font-large: 5rem;
-    --font-medium: 2rem;
-    --font-small: 1rem;
+    --font-large: 6rem;
+    --font-medium: 2.5rem;
+    --font-small: 1.4rem;
 
     /** COLORS **/
     --color-white: #fff;
     --color-black: #000;
+
+    --color-grey-light-1: #f7f7f7;
+    --color-grey-light-2: #b3b3b3;
+
+    --color-grey-dark: #777;
 
 }
