@@ -7,7 +7,18 @@
     background-position: top;
 }
 
-.content{
+@media only screen and (min-width: 960px) {
+
+    .container {
+        margin: 0;
+        height: 75%;
+        max-width: 100%;
+        width: 100%;
+        background-position: bottom;
+    }
+}
+
+.content {
     height: 100vh;
     display: flex;
 }
@@ -29,6 +40,22 @@
     font-weight: 200;
     color: var(--color-black);
     background-color: var(--color-white);
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 100px) {
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content__headings {
+        /*flex: 0 0 40%;*/
+        padding: 2rem;
+    }
+
+    .content__questions {
+        padding: 2rem;
+    }
 }
 
 

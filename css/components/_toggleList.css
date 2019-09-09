@@ -12,6 +12,7 @@
     position: relative;
     counter-increment: step-counter;
     line-height: 1.6;
+    -webkit-box-decoration-break: clone;
 }
 
 .toggle-list li::before {

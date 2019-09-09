@@ -1,5 +1,5 @@
 .header__brand {
-    flex: 0 0 42%;
+    flex: 0 0 38%;
     font-size: var(--font-medium);
     font-weight: bold;
 }
@@ -25,11 +25,27 @@
 
 .icon__float-right {
     float: right;
-    right: 0;
 }
 
 .line-break {
     border-color: var(--color-grey-light-2);
     border-width: 0.5px;
     border-style: solid;
+}
+
+@media only screen and (max-width: 959px) and (min-width: 100px) {
+
+    .header__brand {
+        flex: 0 0 32%;
+        font-weight: normal;
+    }
+
+    .header__primary {
+        /*font-weight: normal;*/
+    }
+
+    .header__secondary {
+        margin-bottom: 2rem;
+        font-weight: normal;
+    }
 }
