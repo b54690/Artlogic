@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08315582-2242-49bd-8a93-62bed0a220e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base/_base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/base/_typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base/_typography.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/_toggleList.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/_toggleList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/iterateArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/iterateArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/loadList.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/loadList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/polyfill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/toggleListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/toggleListItem.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

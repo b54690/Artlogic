@@ -1,5 +1,6 @@
 .toggle-list {
     list-style-type: none;
+    position: relative;
 }
 
 .toggle-list li {
@@ -16,6 +17,12 @@
 .toggle-list li::before {
     position: absolute;
     content: counter(step-counter)'.';
+    margin-right: 1rem;
+    left: -2rem;
+}
+
+.toggle-list li::after {
+    position: absolute;
     margin-right: 1rem;
     left: -2rem;
 }
