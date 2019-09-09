@@ -1,20 +1,16 @@
-(function() {
-    const headings = document.querySelectorAll('#expandable');
+var toggleListItem = function () {
+    var getList = document.querySelectorAll('#toggle-list li');
 
-    Array.prototype.forEach.call(headings, heading => {
-        let btn = heading.querySelectorAll('#button-expand')[0];
-        let target = heading.nextElementSibling;
+    Array.prototype.forEach.call(getList, (function (item) {
+        var target = item.nextElementSibling;
 
-        btn.onclick = () => {
-            let expanded = btn.getAttribute('aria-expanded') === 'true';
+        var btn = item.querySelectorAll('button')[0];
+        btn.onclick = function () {
+            var expanded = btn.getAttribute('aria-expanded') === 'true';
             btn.setAttribute('aria-expanded', !expanded);
             target.hidden = expanded;
-
-            if (expanded) {
-                btn.innerHTML = '&#9660;'
-            } else {
-                btn.innerHTML = '&#9650;'
-            }
         }
-    })
-})();
+    }))
+};
+
+window.addEventListener('load', toggleListItem);

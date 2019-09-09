@@ -1,21 +1,35 @@
 .header__brand {
-    flex: 0 0 32%;
+    flex: 0 0 42%;
     font-size: var(--font-medium);
-    margin-bottom: 5rem;
+    font-weight: bold;
 }
 
 .header__primary {
-    max-width: 32rem;
+    max-width: 39rem;
     flex: 1;
     font-size: var(--font-large);
 }
 
+.header__secondary {
+    font-size: var(--font-medium);
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
 .header__sub-header {
-    max-width: 23rem;
+    font-weight: 200;
+    max-width: 26rem;
     margin-top: 2rem;
     font-size: var(--font-medium);
 }
 
-.icon-float-right {
+.icon__float-right {
     float: right;
+    right: 0;
+}
+
+.line-break {
+    border-color: var(--color-grey-light-2);
+    border-width: 0.5px;
+    border-style: solid;
 }
