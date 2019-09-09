@@ -1,16 +1,12 @@
+var questions;
 var loadList = function() {
 
     var request = new XMLHttpRequest();
-    request.open('GET', '../data/data', true);
-    request.setRequestHeader()
-
-    console.log('thi is req', request)
+    request.open('GET', 'https://private-51d28-artlogic.apiary-mock.com/questions',false);
 
     request.onload = function() {
         if (request.status >= 200 && request.status < 400) {
-            var array = JSON.parse(request.responseText);
-            var event = new CustomEvent('listLoaded', array);
-            document.dispatchEvent(event);
+            questions = JSON.parse(request.responseText);
         }
     };
 
@@ -19,7 +15,6 @@ var loadList = function() {
     };
 
     request.send();
-    // https://stackoverflow.com/questions/35294633/what-is-the-vanilla-js-version-of-jquerys-getjson
 };
 
 window.addEventListener('load', loadList);

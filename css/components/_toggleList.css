@@ -10,6 +10,7 @@
     display: list-item;
     position: relative;
     counter-increment: step-counter;
+    line-height: 1.6;
 }
 
 .toggle-list li::before {
