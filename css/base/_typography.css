@@ -19,32 +19,37 @@
 .header__sub-header {
     font-weight: 200;
     max-width: 26rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-size: var(--font-medium);
 }
 
 .icon__float-right {
     float: right;
+    display: inline;
+    margin: 0 0.125em;
+    padding: 0;
+    vertical-align: baseline;
 }
 
-.line-break {
+.list__line-break {
     border-color: var(--color-grey-light-2);
     border-width: 0.5px;
     border-style: solid;
 }
 
-@media only screen and (max-width: 959px) and (min-width: 100px) {
+@media only screen and (max-width: 900px) and (min-width: 100px) {
 
     .header__brand {
         flex: 0 0 32%;
         font-weight: normal;
     }
 
-    .header__primary {
-        /*font-weight: normal;*/
+    .header__sub-header {
+        max-width: none;
     }
 
     .header__secondary {
+        max-width: none;
         margin-bottom: 2rem;
         font-weight: normal;
     }

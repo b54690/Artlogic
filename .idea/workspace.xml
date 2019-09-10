@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/css/base/_typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base/_typography.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/_toggleList.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/_toggleList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/page/_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page/_home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utilities/_utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/utilities/_utilities.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/iterateArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/iterateArray.js" afterDir="false" />
     </list>
@@ -16,11 +17,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>/*background-color: aqua;</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
