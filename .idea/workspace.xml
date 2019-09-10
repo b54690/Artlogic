@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08315582-2242-49bd-8a93-62bed0a220e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/abstracts/_variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/abstracts/_variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base/_base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/base/_typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base/_typography.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/_toggleList.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/_toggleList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/page/_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page/_home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/utilities/_utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/utilities/_utilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/iterateArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/iterateArray.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

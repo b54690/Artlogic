@@ -25,10 +25,6 @@
 
 .icon__float-right {
     float: right;
-    display: inline;
-    margin: 0 0.125em;
-    padding: 0;
-    vertical-align: baseline;
 }
 
 .list__line-break {

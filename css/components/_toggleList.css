@@ -21,12 +21,6 @@
     left: -2rem;
 }
 
-.toggle-list li::after {
-    position: absolute;
-    margin-right: 1rem;
-    left: -2rem;
-}
-
 .toggle-list p {
     color:  var(--color-grey-dark);
     font-size: 1.5rem;
